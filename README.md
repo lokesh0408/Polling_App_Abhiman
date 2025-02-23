@@ -35,12 +35,6 @@ cd polling-system
 
 Create a .env file and add:
 ```
-# PostgreSQL Configuration
-DB_USER=user
-DB_PASSWORD=password
-DB_NAME=polling_db
-DB_HOST=postgres_db
-DB_PORT=5432
 
 # Kafka Configuration
 KAFKA_BROKER=kafka:9092
