@@ -64,11 +64,10 @@ services:
     env_file:
       - .env
     ports:
-      - "3001:3000" # Expose your backend
+      - "3001:3000" 
     volumes:
       - .:/usr/src/app
     working_dir: /usr/src/app
-    command: ["npm", "run", "start"] # Adjust this based on your start script
-
+    command: ["npm", "run", "start"] 
 volumes:
   pgdata:
