@@ -116,14 +116,6 @@ To stop all services, run:
 
 ```docker-compose down```
 
-Files Not to Push to GitHub
-
-Make sure .gitignore includes:
-```
-node_modules/
-.env
-pgdata/
-```
 Contributors
 
 Lokesh Kumar
